@@ -4,7 +4,7 @@ then
   git clone https://github.com/PredatorHackerzZ/SamanthaMoviesRobot.git /SamanthaMoviesRobot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $https://github.com/comrade09/SamanthaMoviesRobot /SamanthaMoviesRobot
+  git clone https://github.com/comrade09/SamanthaMoviesRobot /SamanthaMoviesRobot
 fi
 cd /SamanthaMoviesRobot
 pip3 install -U -r requirements.txt
